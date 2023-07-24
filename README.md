@@ -26,7 +26,7 @@ F1-score: 0.36363636363636365
 
 2. Binary Classification Woven 1st Augmentation [Defected Images: 213 images, Defect-Free Images: 213 Images]
 
-In this code, the main steps and the dataset that is used are kept as the same as previous code. However, the dataset is increased by the application of data augmentation. 
+In this section, the main steps and the dataset that is used are kept as the same as previous code. However, the dataset is increased by the application of data augmentation. Since the codes were the same, the code wasnt involved in repo. 
 The augmentation is applied on robodlow website. 
 Applied augmentation techniques were as below. 
   Outputs per training example: 3
@@ -53,7 +53,7 @@ F1-score: 0.42105263157894735
 
 3. Binary Classification Woven 2nd Augmentation [Defected Images: 2982 images, Defect-Free Images: 2982 Images]
 
-In this code, the main steps and the dataset that is used are kept as the same as previous code. 
+In this section, the main steps and the dataset that is used are kept as the same as previous code. 
 However, a 2nd augmentation is applied by phyton in order to reach higher number of data. This augmentation is applied on top of the 1st augmentation set.
 Applied augmentation techniques were as below. 
   Outputs per training example: 14
