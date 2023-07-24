@@ -6,9 +6,9 @@ Classifying fabric images as defected or defect-free by using CNN model.
 
 In this code, a woven fabric dataset that contains defected and defect-free images is used to train and test a CNN model. 
 The aim of the model is to classify images as defected and defect-free. 
-The dataset contained 5 classess, and 4 of them are used to form defected sample images while 1 of them is used for forming defect-free samples. 
+The dataset contained 5 classess, and 4 of them (DelikVeKesikHatasi, KumasDokusundaYabanciCisim, İplikHatasi, YagLekesiVeRenkHatasi) are used to form defected sample images (HataVar) while 1 of them (HataYok) is used for forming defect-free samples. 
 The class balance has been kept and controlled throughut the dataset preparation and train, test, validation split. 
-In this case, no data augmentation technique is applied. 
+In this section, no data augmentation technique is applied. 
 
 After training and validating CNN, below performance is obtained with the test dataset. 
 1/1 [==============================] - 4s 4s/step - loss: 2.0109 - accuracy: 0.5333
